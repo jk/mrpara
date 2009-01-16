@@ -26,3 +26,47 @@
 
 # GitHub specific
 Look over the [Guidesection](http://github.com/guides/Home). You should also customize your ~/.gitconfig .
+
+# .gitconfig
+
+    [user]
+    	name = Jens Kohl
+    	email = jens.kohl@gmail.com
+    	signingkey = 8EFDF903
+    [color]
+    	status = auto
+    	diff = auto
+    	branch = auto
+    	interactive = auto
+    [alias]
+    	st = status
+    	ci = commit
+    	co = checkout
+    	l = log
+    	staged = diff --cached
+    	unstaged = diff
+    	both = diff HEAD
+    	oneline = log --pretty=oneline
+    	amend = commit --amend
+    [merge]
+    	tool = opendiff
+    [sendemail]
+    	smtpserver = example.com
+    	aliasesfile = /Users/jkohl/.gitaliases
+    	aliasfiletype = mailrc
+    	smtpuser = user
+    	smtppass = geheim
+    	smtpssl = true
+    [format]
+    	numbered = auto
+    [core]
+    	legacyheaders = false
+    	excludesfile = /etc/gitexcludes
+    	editor = mate -w
+    [repack]
+    	usedeltabaseoffset = true
+    [github]
+    	user = jk
+    	token = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Die Daten für die github-Direktive gibt es unter [Accounts](https://github.com/account).
