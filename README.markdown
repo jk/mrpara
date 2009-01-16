@@ -23,3 +23,6 @@
 
 # When you're done
 [Continue](http://github.com/jk/mrpara/tree/master)
+
+# GitHub specific
+Look over the [Guidesection](http://github.com/guides/Home). You should also customize your ~/.gitconfig .
