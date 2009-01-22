@@ -70,3 +70,8 @@ Look over the [Guidesection](http://github.com/guides/Home). You should also cus
     	token = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Die Daten für die github-Direktive gibt es unter [Accounts](https://github.com/account).
+
+# Forken, Pullen und Pushen
+
+Forken sollte man gar nicht, wenn man als Contributor eingetragen ist.
+Pullen geht mit *git pull origin master* und pushen mit *git push origin master*
